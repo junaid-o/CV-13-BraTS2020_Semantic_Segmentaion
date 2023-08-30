@@ -1,0 +1,7 @@
+matplotlib
+numpy
+scikit-learn
+tensorflow==2.4.1
+segmentation-models-3D
+glob2
+tifffile
