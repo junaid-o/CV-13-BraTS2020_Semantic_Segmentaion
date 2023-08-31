@@ -161,6 +161,7 @@ val_img_datagen = DataGenerator().imageLoader(val_img_dir, val_img_list,
 #Define loss, metrics and optimizer to be used for training
 wt0, wt1, wt2, wt3 = 0.25,0.25,0.25,0.25
 
+
 #import segmentation_models_3D as sm
 dice_loss = sm.losses.DiceLoss(class_weights=np.array([wt0, wt1, wt2, wt3])) 
 focal_loss = sm.losses.CategoricalFocalLoss()
