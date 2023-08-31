@@ -53,7 +53,7 @@ The BraTS2020 dataset provides multimodal brain scans in NIfTI format (.nii.gz),
 
 ## Implementation Details
 
-The project utilizes TensorFlow as the deep learning framework and leverages the 3D-UNET architecture for accurate segmentation of brain tumors. The `segmentation-model-3D` package is employed for facilitating 3D segmentation tasks.
+The project utilizes TensorFlow as the deep learning framework and leverages the 3D-UNET architecture for accurate segmentation of brain tumors. The `segmentation-model-3D` package is employed for facilitating 3D segmentation tasks. `segmentation-model-3D` package has been used or computing `DiceLoss` and `CategoicalFocalLoss`
 
 ![loss](assets/model_performance/loss.png)
 ![accuracy](assets/model_performance/accuracy.png)
@@ -67,6 +67,10 @@ The project utilizes TensorFlow as the deep learning framework and leverages the
 5. Run the training script with `python main.py -train` or `python main.py -prepare-data`.
 
 *NOTE:* _if there is any issue in running the code via main.py file simple copy the .py files from research folder and keep it in root folder and run one by one._
+
+## Model Architechture
+
+![Model_Architechture](assets/model_representation/3D_unet_model.png)
 
 ## Acknowledgments
 
