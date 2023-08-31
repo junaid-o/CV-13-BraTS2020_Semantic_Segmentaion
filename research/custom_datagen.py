@@ -1,6 +1,6 @@
 """
 Custom data generator to work with BraTS2020 dataset.
-Can be used as a template to create your own custom data generators. 
+
 
 No image processing operations are performed here, just load data from local directory
 in batches. 
