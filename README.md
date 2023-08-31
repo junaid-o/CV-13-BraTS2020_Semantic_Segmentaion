@@ -1,8 +1,9 @@
 # Brain Tumor Segmentation using 3D-UNET
 
 ![Python 3.8.17](https://img.shields.io/badge/python-3.8.17-blue.svg)
-![Static Badge](https://img.shields.io/badge/Tensorflow-orange.svg)
-![Static Badge](https://img.shields.io/badge/PYPI-segmentation_model_3D-blue.svg)
+![Static Badge](https://img.shields.io/badge/Tensorflow-2.8.0-orange.svg)
+![Static Badge](https://img.shields.io/badge/Keras-2.8.0-red.svg)
+![Static Badge](https://img.shields.io/badge/PYPI-segmentation_model_3D_1.0.4-blue.svg)
 ![Static Badge](https://img.shields.io/badge/ARCHITECHTURE-3D_UNET-darkgreen.svg)
 
 ![SampleImage_SeparateChannels](assets/sample_images/01_sample_actual.png)
