@@ -12,6 +12,8 @@
 
 This project involves 3D segmentation of brain tumors from the BraTS2020 dataset using TensorFlow, 3D-UNET architecture, and the `segmentation-model-3D` package. The BraTS2020 dataset is approximately `40 GB in size`, comprising both training (~30 GB) and validation sets (~10 GB). In this project, only the training set is utilized and split into training and validation subsets.
 
+
+## **DATASET:** [DATASET](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
 ## Project Overview
 
 The goal of this project is to perform 3D segmentation of brain tumors from medical imaging data obtained through MRI scans. The project's main steps include:
