@@ -1,4 +1,3 @@
-# https://youtu.be/PNqnLbzdxwQ
 """
 Custom data generator to work with BraTS2020 dataset.
 Can be used as a template to create your own custom data generators. 

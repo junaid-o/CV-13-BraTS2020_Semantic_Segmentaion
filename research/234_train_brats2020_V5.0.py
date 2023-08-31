@@ -1,7 +1,4 @@
-# https://youtu.be/ScdCQqLtnis
 """
-@author: Sreenivas Bhattiprolu
-
 Code to train batches of cropped BraTS 2020 images using 3D U-net.
 
 Please get the data ready and define custom data gnerator using the other
