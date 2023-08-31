@@ -11,6 +11,7 @@ def main():
     parser = argparse.ArgumentParser(description='Run various scripts for BraTS Segmentation project.')
     parser.add_argument('--train', action='store_true', help='Run the trainer script')
     parser.add_argument('--prepare-data', action='store_true', help='Run the data preparation script')
+    parser.add_argument('--predict', action='store_true', help='Run the prediction script')
     args = parser.parse_args()
 
     if args.train:
@@ -21,5 +22,9 @@ def main():
         data_preparation_script_path = os.path.abspath(os.path.join('src', 'BraTS_Segmentation', 'components', 'data_preparation.py'))
         subprocess.call(['python', data_preparation_script_path])
 
+    if args.predict:
+        predict_script_path = data_preparation_script_path = os.path.abspath(os.path.join('src', 'BraTS_Segmentation', 'components', 'predict.py'))
+        subprocess.call(["python", predict_script_path])
+        
 if __name__ == "__main__":
     main()
