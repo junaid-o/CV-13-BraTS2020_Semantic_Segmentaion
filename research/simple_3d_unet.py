@@ -2,7 +2,7 @@
 Converted standard 2D Unet to 3D. 
 
 """
-
+import tensorflow as tf
 from keras.models import Model
 from keras.layers import Input, Conv3D, MaxPooling3D, concatenate, Conv3DTranspose, BatchNormalization, Dropout, Lambda
 from tensorflow.keras.optimizers import Adam
